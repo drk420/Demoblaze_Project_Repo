@@ -1,0 +1,6 @@
+2024-06-14 22:35:21,083 [main] INFO Demoblaze automationframework is started - framework is stated
+2024-06-14 22:35:24,788 [main] INFO Demoblaze automationframework is started - Browser launches,maximize,wait
+2024-06-14 22:35:24,824 [main] INFO Demoblaze automationframework is started - object is created
+2024-06-14 22:35:24,950 [main] INFO Demoblaze automationframework is started - login link is verified
+2024-06-14 22:35:25,659 [main] INFO Demoblaze automationframework is started - browser is closed
+2024-06-14 22:35:25,663 [main] INFO Demoblaze automationframework is started - framework stopped
