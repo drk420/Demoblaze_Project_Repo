@@ -29,8 +29,6 @@ import com.demoblaze.tastebase.Testbase;
 		public void onTestFailure(ITestResult result) {
 
 		logger.info("test is failed");
-		util_obj.screenshot(result.getName()+System.currentTimeMillis());
-		logger.info("Take Screenshot");
 
 		}
 

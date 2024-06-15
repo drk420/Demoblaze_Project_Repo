@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testlayer.Testlayer">
+      <class name="testlayer.BuyFunctionality">
         <methods>
-          <include name="verifylogin"/>
           <include name="start"/>
           <include name="teardown"/>
           <include name="stop"/>
+          <include name="verifyBuyFunctionalityWithLogin"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testlayer.Testlayer -->
+      </class> <!-- testlayer.BuyFunctionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
