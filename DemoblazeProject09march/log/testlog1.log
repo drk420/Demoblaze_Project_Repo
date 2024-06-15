@@ -4,3 +4,18 @@
 2024-06-14 22:35:24,950 [main] INFO Demoblaze automationframework is started - login link is verified
 2024-06-14 22:35:25,659 [main] INFO Demoblaze automationframework is started - browser is closed
 2024-06-14 22:35:25,663 [main] INFO Demoblaze automationframework is started - framework stopped
+2024-06-15 11:42:54,157 [main] INFO Demoblaze automationframework is started - framework is stated
+2024-06-15 11:42:58,424 [main] INFO Demoblaze automationframework is started - Browser launches,maximize,wait
+2024-06-15 11:42:58,462 [main] INFO Demoblaze automationframework is started - object is created
+2024-06-15 11:42:58,474 [main] INFO Demoblaze automationframework is started - test is started
+2024-06-15 11:42:58,583 [main] INFO Demoblaze automationframework is started - login link is verified
+2024-06-15 11:42:59,091 [main] INFO Demoblaze automationframework is started - test is successed
+2024-06-15 11:42:59,287 [main] INFO Demoblaze automationframework is started - browser is closed
+2024-06-15 11:42:59,290 [main] INFO Demoblaze automationframework is started - framework stopped
+2024-06-15 11:42:59,298 [main] INFO Demoblaze automationframework is started - framework is stated
+2024-06-15 11:43:01,877 [main] INFO Demoblaze automationframework is started - Browser launches,maximize,wait
+2024-06-15 11:43:01,878 [main] INFO Demoblaze automationframework is started - object is created
+2024-06-15 11:43:01,880 [main] INFO Demoblaze automationframework is started - test is started
+2024-06-15 11:43:05,558 [main] INFO Demoblaze automationframework is started - test is successed
+2024-06-15 11:43:05,771 [main] INFO Demoblaze automationframework is started - browser is closed
+2024-06-15 11:43:05,773 [main] INFO Demoblaze automationframework is started - framework stopped
