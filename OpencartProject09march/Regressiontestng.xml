@@ -3,12 +3,11 @@
 <suite name="RegressionSuite">
 	<listeners>
 	<listener class-name="com.opencart.utilty.ListenerSetup"/>
-	<listener class-name="com.opencart.utilty.ExtentReportNG"/>
+	
 	</listeners>
   <test thread-count="5" name="RegressionTest">
 	  <classes>
-		  <class name="com.opencart.testlayer.LoginTest"/>
-		  <class name="com.opencart.testlayer.RegisterTest"/>
+		  <class name=""></class>
 	  </classes>
   </test> <!-- RegressionTest -->
 </suite> <!-- RegressionSuite -->
