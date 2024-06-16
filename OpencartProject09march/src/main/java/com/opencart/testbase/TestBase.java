@@ -21,7 +21,7 @@ public class TestBase {
 	@BeforeTest
 	public void start() {
 		logger = Logger.getLogger("Opencart Framework");
-		PropertyConfigurator.configure("Log4jfile.properties");
+		PropertyConfigurator.configure("Log4j.propertiesfile");
 		logger.info("framework execution started");
 	
 
