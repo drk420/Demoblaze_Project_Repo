@@ -37,6 +37,9 @@ import com.demoblaze.tastebase.Testbase;
 			contactpage_obj.entermessage("I have sent message");
 			contactpage_obj.clickonsendmessage();
 			contactpage_obj.gettextalert(driver);
+			logger.info("new code is added");
+			
+			logger.info("new codw is added to merge");
 		}
 
 	}
