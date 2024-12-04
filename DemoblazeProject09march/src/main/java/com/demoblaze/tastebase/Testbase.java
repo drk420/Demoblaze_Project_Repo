@@ -18,22 +18,24 @@ package com.demoblaze.tastebase;
 	import org.testng.annotations.BeforeMethod;
 	import org.testng.annotations.Parameters;
 
+import com.demoblaze.pagelayer.CartPage;
+import com.demoblaze.pagelayer.ConfirmationPage;
 import com.demoblaze.pagelayer.Homepage;
 import com.demoblaze.pagelayer.Loginpage;
+import com.demoblaze.pagelayer.ProductPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-	
-	
-import utilities.Utility;
+import utilities.UtilClass;
 
 	public class Testbase {
 		public static Logger logger;
-		public Homepage home_obj;
-		public Loginpage login_obj;
-		public Utility util_obj;
+		public static Homepage home_obj;
+		public static  Loginpage login_obj;
+		public static ConfirmationPage confirm_obj;
+		public static CartPage cartpage_obj;
+		public static  UtilClass utilclass_obj;
+		public static ProductPage productpage_obj;
 		public static  WebDriver driver;
-		
-
 			
 			@BeforeClass
 			public void start() {
@@ -83,7 +85,11 @@ import utilities.Utility;
 			logger.info("Browser launches,maximize,wait");
 			home_obj = new Homepage(driver);
 			login_obj = new Loginpage(driver);
-			util_obj = new Utility();
+			utilclass_obj = new UtilClass();
+			cartpage_obj = new CartPage(driver);
+			//read_data = new ReadExcell();
+			confirm_obj = new ConfirmationPage(driver);
+			productpage_obj = new ProductPage(driver);
 			logger.info("object is created");
 		}
 		    @AfterMethod
